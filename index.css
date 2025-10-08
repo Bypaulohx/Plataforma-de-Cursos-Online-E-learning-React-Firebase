@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #2563eb;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-xl font-medium;
+  background: var(--brand);
+  color: white;
+}
+.btn-outline {
+  @apply px-4 py-2 rounded-xl font-medium border;
+  border-color: var(--brand);
+  color: var(--brand);
+  background: white;
+}
+.card {
+  @apply rounded-2xl shadow-sm border bg-white p-4;
+}
